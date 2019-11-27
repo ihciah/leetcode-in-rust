@@ -2,13 +2,13 @@ pub struct Solution {}
 
 impl Solution {
     pub fn convert(s: String, num_rows: i32) -> String {
-        let mut pairs:Vec<_> = (0..num_rows)
-            .chain((1..num_rows-1).rev())
+        let mut pairs: Vec<_> = (0..num_rows)
+            .chain((1..num_rows - 1).rev())
             .cycle()
             .zip(s.chars())
             .collect();
-        pairs.sort_by_key(|&(row, _)|row);
-        let (_, chars):(Vec<_>, Vec<_>) = pairs.into_iter().unzip();
+        pairs.sort_by_key(|&(row, _)| row);
+        let (_, chars): (Vec<_>, Vec<_>) = pairs.into_iter().unzip();
         chars.into_iter().collect()
     }
 }
