@@ -7,3 +7,5 @@ mod median_of_two_sorted_arrays;
 mod longest_palindromic_substring;
 mod zigzag_conversion;
 mod reverse_integer;
+mod string_to_integer_atoi;
+mod palindrome_number;
