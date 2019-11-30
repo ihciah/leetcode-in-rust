@@ -1,4 +1,4 @@
-use super::utils::linked_list::{ListNode, to_list};
+use super::utils::linked_list::ListNode;
 
 pub struct Solution {}
 
@@ -34,6 +34,8 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
+    use crate::utils::linked_list::to_list;
+
     use super::*;
 
     #[test]
