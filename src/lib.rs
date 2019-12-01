@@ -15,3 +15,8 @@ mod n0012_integer_to_roman;
 mod n0013_roman_to_integer;
 mod n0014_longest_common_prefix;
 mod n0015_3sum;
+mod n0016_3sum_closest;
+mod n0017_letter_combinations_of_a_phone_number;
+mod n0018_4sum;
+mod n0019_remove_nth_node_from_end_of_list;
+mod n0020_valid_parentheses;
