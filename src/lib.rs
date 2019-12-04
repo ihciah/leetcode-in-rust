@@ -28,3 +28,7 @@ mod n0025_reverse_nodes_in_k_group;
 mod n0026_remove_duplicates_from_sorted_array;
 mod n0027_remove_element;
 mod n0028_implement_strstr;
+mod n0029_divide_two_integers;
+mod n0030_substring_with_concatenation_of_all_words;
+mod n0031_next_permutation;
+mod n0032_longest_valid_parentheses;
