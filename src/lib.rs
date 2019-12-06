@@ -1,3 +1,4 @@
+#![allow(dead_code)]
 pub mod utils;
 
 mod n0001_two_sums;
@@ -43,3 +44,8 @@ mod n0040_combination_sum_ii;
 mod n0041_first_missing_positive;
 mod n0042_trapping_rain_water;
 mod n0043_multiply_strings;
+mod n0044_wildcard_matching;
+mod n0045_jump_game_ii;
+mod n0046_permutations;
+mod n0047_permutations_ii;
+mod n0048_rotate_image;

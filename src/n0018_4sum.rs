@@ -19,7 +19,7 @@ impl Solution {
                 out
             },
         );
-        sums.sort();
+        sums.sort_unstable();
 
         if sums.is_empty() {
             return vec![];
@@ -40,7 +40,7 @@ impl Solution {
                     for (right1, right2) in &sums_map[right_value] {
                         if left1 == right1 || left1 == right2 || left2 == right1 || left2 == right2 { continue; }
                         let mut v = vec![nums[*left1], nums[*left2], nums[*right1], nums[*right2]];
-                        v.sort();
+                        v.sort_unstable();
                         out.insert(v);
                     }
                 }

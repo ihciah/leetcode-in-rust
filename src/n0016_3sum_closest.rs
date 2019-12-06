@@ -4,7 +4,7 @@ impl Solution {
     pub fn three_sum_closest(nums: Vec<i32>, target: i32) -> i32 {
         let mut nums = nums;
         let mut out: Option<i32> = None;
-        nums.sort();
+        nums.sort_unstable();
         nums.iter()
             .enumerate()
             .filter_map(

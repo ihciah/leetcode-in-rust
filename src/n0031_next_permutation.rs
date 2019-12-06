@@ -6,20 +6,20 @@ impl Solution {
         let iter_tailless = nums.iter().enumerate().skip(1).rev();
 
         let first_down = iter_headless.zip(iter_tailless).filter(
-            |((xi, xv), (yi, yv))| yv > xv
+            |((_xi, xv), (_yi, yv))| yv > xv
         ).next();
 
         let (small_i, small_v);
         match first_down {
             None => return nums.reverse(),
-            Some(((xi, xv), (yi, yv))) => {
+            Some(((xi, xv), (_yi, _yv))) => {
                 small_i = xi;
                 small_v = *xv;
             }
         }
 
         let (swap_i, _) = nums.iter().enumerate().rev().filter(
-            |(i, &v)| v > small_v
+            |(_i, &v)| v > small_v
         ).next().unwrap();
 
         nums.swap(small_i, swap_i);

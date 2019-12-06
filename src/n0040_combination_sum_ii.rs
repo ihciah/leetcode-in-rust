@@ -3,7 +3,7 @@ pub struct Solution {}
 impl Solution {
     pub fn combination_sum2(candidates: Vec<i32>, target: i32) -> Vec<Vec<i32>> {
         let mut candidates = candidates;
-        candidates.sort();
+        candidates.sort_unstable();
         let mut result = Vec::new();
         let mut state = Vec::new();
         Solution::backtrack(&mut state, &candidates[..], target, &mut result);

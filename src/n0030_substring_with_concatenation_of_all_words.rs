@@ -26,7 +26,7 @@ impl Solution {
             for word_pos in (i..i + words_count * word_len).step_by(word_len) {
                 let word = &string_bytes[word_pos..word_pos + word_len];
                 let word_string = String::from_utf8(word.to_vec()).unwrap();
-                if let Some(v) = target_map.get(&word_string) {
+                if target_map.get(&word_string).is_some() {
                     // The word is in the target.
                     *string_count.entry(word_string).or_insert(0) += 1;
                 } else {

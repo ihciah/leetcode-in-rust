@@ -5,7 +5,7 @@ impl Solution {
         let mut nums = nums;
         let mut out = Vec::new();
         let mut last_seen: Option<i32> = None;
-        nums.sort();
+        nums.sort_unstable();
         nums.iter().enumerate().rev().skip(2).rev().for_each(
             |(i, x)| {
                 if let Some(last_num) = last_seen {

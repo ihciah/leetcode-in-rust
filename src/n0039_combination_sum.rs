@@ -3,7 +3,7 @@ pub struct Solution {}
 impl Solution {
     pub fn combination_sum(candidates: Vec<i32>, target: i32) -> Vec<Vec<i32>> {
         let mut candidates = candidates;
-        candidates.sort();
+        candidates.sort_unstable();
         candidates.dedup();
         let mut result = Vec::new();
         let mut state = Vec::new();
