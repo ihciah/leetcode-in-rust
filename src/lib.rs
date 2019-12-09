@@ -88,3 +88,5 @@ mod n0082_remove_duplicates_from_sorted_list_ii;
 mod n0083_remove_duplicates_from_sorted_list;
 mod n0084_largest_rectangle_in_histogram;
 mod n0085_maximal_rectangle;
+mod n0086_partition_list;
+mod n0087_scramble_string;
