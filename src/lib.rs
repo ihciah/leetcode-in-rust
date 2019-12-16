@@ -162,3 +162,8 @@ mod n0169_majority_element;
 mod n0171_excel_sheet_column_number;
 mod n0172_factorial_trailing_zeroes;
 mod n0173_binary_search_tree_iterator;
+mod n0174_dungeon_game;
+mod n0179_largest_number;
+mod n0187_repeated_dna_sequences;
+mod n0188_best_time_to_buy_and_sell_stock_iv;
+mod n0189_rotate_array;
