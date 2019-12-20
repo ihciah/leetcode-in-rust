@@ -215,3 +215,7 @@ mod n0263_ugly_number;
 mod n0264_ugly_number_ii;
 mod n0268_missing_number;
 mod n0273_integer_to_english_words;
+mod n0274_h_index;
+mod n0275_h_index_ii;
+mod n0279_perfect_squares;
+mod n0282_expression_add_operators;
