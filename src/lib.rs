@@ -219,3 +219,8 @@ mod n0274_h_index;
 mod n0275_h_index_ii;
 mod n0279_perfect_squares;
 mod n0282_expression_add_operators;
+mod n0283_move_zeroes;
+mod n0287_find_the_duplicate_number;
+mod n0289_game_of_life;
+mod n0290_word_pattern;
+mod n0292_nim_game;
