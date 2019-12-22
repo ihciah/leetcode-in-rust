@@ -227,3 +227,6 @@ mod n0292_nim_game;
 mod n0295_find_median_from_data_stream;
 mod n0299_bulls_and_cows;
 mod n0300_longest_increasing_subsequence;
+mod n0301_remove_invalid_parentheses;
+mod n0303_range_sum_query_immutable;
+mod n0304_range_sum_query_2d_immutable;
