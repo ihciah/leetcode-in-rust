@@ -238,3 +238,5 @@ mod n0312_burst_balloons;
 mod n0313_super_ugly_number;
 mod n0315_count_of_smaller_numbers_after_self;
 mod n0316_remove_duplicate_letters;
+mod n0318_maximum_product_of_word_lengths;
+mod n0319_bulb_switcher;
