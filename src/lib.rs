@@ -242,3 +242,5 @@ mod n0318_maximum_product_of_word_lengths;
 mod n0319_bulb_switcher;
 mod n0321_create_maximum_number;
 mod n0322_coin_change;
+mod n0324_wiggle_sort_ii;
+mod n0326_power_of_three;
